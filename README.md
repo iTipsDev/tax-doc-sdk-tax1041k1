@@ -5,13 +5,17 @@ Software development kit to generate IRS Form 1041 K-1 as PDF file using Financi
 This GitHub project is public but the Maven repositories on which it relies are private.
 
 
-### Google Artifact Registry Access
+### Maven Artifacts - Google Artifact Registry Access
 
 Access to the Maven artifacts in Google Artifact Registry require the following, one-time, set up.
 
-Upon ordering the SDK, you indicate the email of the developer or the email of the Google service account that will be using the artifact
+Upon ordering the SDK, you indicate the email of the developer or the email of the Google service account that will be using the artifact. We grant the permission necessary to access the repository to that account.
+
+
+
+### Obtain Credentials --> JSON File --> Environment Variable
  
-Obtain a json file with credentials corresponding to the developer or service account email (see below)
+Obtain a json file with the credentials corresponding to the developer or service account email (see below)
  
 Create a GOOGLE_APPLICATION_CREDENTIALS environment variable that points to the file. For example:
 
@@ -19,8 +23,7 @@ Create a GOOGLE_APPLICATION_CREDENTIALS environment variable that points to the 
 export GOOGLE_APPLICATION_CREDENTIALS='/Users/johnjones/.config/gcloud/application_default_credentials.json'
 ```
 
-
-### Credentials for Your Google Email
+### Getting Credentials for Your Google Account (for Your Email Address)
 
 At a terminal prompt, type
 
