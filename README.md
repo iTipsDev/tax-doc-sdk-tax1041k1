@@ -45,8 +45,3 @@ See the installation instructions at:
 https://cloud.google.com/sdk/docs/install
 
 
-
-
-
-
-

@@ -27,8 +27,8 @@ public class Tax1041K1DocumentGenerator {
 
         TaxDataList taxDataList = sampleData( );
 
-        Tax1041K1PdfBuilder tax1041K1PdfBuilder = new Tax1041K1PdfBuilder( );
-        byte[] bytes = tax1041K1PdfBuilder.buildQr( taxDataList );
+        Tax1041K1PdfBuilder pdfBuilder = new Tax1041K1PdfBuilder( );
+        byte[] bytes = pdfBuilder.buildQr( taxDataList );
 
         String filePath = "samples/Tax1041K1.sample.png";
         FileUtils.bytesToFile( bytes, filePath );
@@ -49,8 +49,8 @@ public class Tax1041K1DocumentGenerator {
 
         String watermarkText = "Sample"; // Empty string for no watermark
 
-        Tax1041K1PdfBuilder tax1041K1PdfBuilder = new Tax1041K1PdfBuilder( );
-        byte[] pdfBytes = tax1041K1PdfBuilder.build( taxDataList, watermarkText );
+        Tax1041K1PdfBuilder pdfBuilder = new Tax1041K1PdfBuilder( );
+        byte[] pdfBytes = pdfBuilder.build( taxDataList, watermarkText );
 
         String filePath = "samples/Tax1041K1.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
