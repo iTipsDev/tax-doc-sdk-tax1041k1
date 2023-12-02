@@ -1,6 +1,6 @@
 # tax-doc-sdk-tax1041k1
 
-Software development kit to generate IRS Form 1041 K-1 as PDF file using Financial Data Exchange (FDX) standards.
+Software development kit to generate IRS Form 1041 K-1 as PDF file using Financial Data Exchange (FDX) standards include QR codes and embedded JSON.
 
 <img alt="Sample Form" src="samples/Tax1041K1.sample.png" width="850"/>
 
