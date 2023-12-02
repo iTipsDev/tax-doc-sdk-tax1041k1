@@ -86,11 +86,10 @@ public class Tax1041K1DocumentGenerator {
         System.out.println( filePath );
 
         String filePathPng = "samples/Tax1041K1.sample.png";
-        byte[] pngBytes = Pdf2PngConverter.convertBytes(
-            pdfBytes
-        );
+        byte[] pngBytes = Pdf2PngConverter.convertBytes( pdfBytes );
         FileUtils.bytesToFile( pngBytes, filePathPng );
         System.out.println( filePathPng );
+
 
     }
 
