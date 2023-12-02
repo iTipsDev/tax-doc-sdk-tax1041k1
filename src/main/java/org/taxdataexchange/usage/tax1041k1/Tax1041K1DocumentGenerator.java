@@ -56,7 +56,7 @@ public class Tax1041K1DocumentGenerator {
         Tax1041K1PdfBuilder pdfBuilder = new Tax1041K1PdfBuilder( );
         byte[] bytes = pdfBuilder.buildQr( taxDataList );
 
-        String filePath = "samples/Tax1041K1.sample.png";
+        String filePath = "samples/Tax1041K1.qr.png";
         FileUtils.bytesToFile( bytes, filePath );
         System.out.println( filePath );
 
@@ -84,6 +84,13 @@ public class Tax1041K1DocumentGenerator {
         String filePath = "samples/Tax1041K1.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
         System.out.println( filePath );
+
+        String filePathPng = "samples/Tax1041K1.sample.png";
+        byte[] pngBytes = Pdf2PngConverter.convertBytes(
+            pdfBytes
+        );
+        FileUtils.bytesToFile( pngBytes, filePathPng );
+        System.out.println( filePathPng );
 
     }
 

@@ -2,6 +2,8 @@
 
 Software development kit to generate IRS Form 1041 K-1 as PDF file using Financial Data Exchange (FDX) standards.
 
+<img alt="Sample Form" src="samples/Tax1041K1.sample.png" width="850"/>
+
 This GitHub project is public but the Maven repositories on which it relies are private.
 
 
