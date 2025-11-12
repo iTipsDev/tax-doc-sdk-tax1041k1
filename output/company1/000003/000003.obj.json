@@ -1,0 +1,104 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "38-197-4502",
+  "taxFormId" : "3141674",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0456124",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Terry, Hoeger and Breitenberg"
+    },
+    "address" : {
+      "line1" : "1835 Beer Squares",
+      "city" : "Larsonshire",
+      "region" : "WI",
+      "postalCode" : "56974"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "hobert.volkman@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-82-2551",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Kim",
+      "last" : "McClure"
+    },
+    "address" : {
+      "line1" : "62245 Cyrstal Port",
+      "city" : "Champlinshire",
+      "region" : "HI",
+      "postalCode" : "15802"
+    },
+    "email" : "imogene.kuvalis@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "finalK1" : true,
+  "amendedK1" : true,
+  "fiscalYearBegin" : "2025-11-17",
+  "fiscalYearEnd" : "2025-12-06",
+  "fiduciary" : {
+    "tin" : "tin",
+    "partyType" : "BUSINESS",
+    "individualName" : {
+      "first" : "Cyril",
+      "last" : "Kilback"
+    },
+    "businessName" : {
+      "name1" : "Abbott-Parisian"
+    },
+    "address" : {
+      "line1" : "307 Sauer Motorway",
+      "city" : "Marlenville",
+      "region" : "WY",
+      "postalCode" : "35444"
+    },
+    "phone" : {
+      "country" : "country",
+      "number" : "number",
+      "extension" : "extension"
+    },
+    "email" : "email"
+  },
+  "form1041T" : true,
+  "date1041T" : "2025-03-28",
+  "final1041" : true,
+  "domestic" : true,
+  "foreign" : true,
+  "interestIncome" : 200,
+  "ordinaryDividends" : 300,
+  "qualifiedDividends" : 400,
+  "netShortTermGain" : 500,
+  "netLongTermGain" : 600,
+  "gain28Rate" : 700,
+  "unrecaptured1250Gain" : 800,
+  "otherPortfolioIncome" : 900,
+  "ordinaryBusinessIncome" : 1000,
+  "netRentalRealEstateIncome" : 1100,
+  "otherRentalIncome" : 1200,
+  "directlyApportionedDeductions" : [ {
+    "code" : "I",
+    "amount" : 1400
+  } ],
+  "estateTaxDeduction" : 1300,
+  "finalYearDeductions" : [ {
+    "code" : "G",
+    "amount" : 1500
+  } ],
+  "amtAdjustments" : [ {
+    "code" : "O",
+    "amount" : 1600
+  } ],
+  "credits" : [ {
+    "code" : "W",
+    "amount" : 1700
+  } ],
+  "otherInfo" : [ {
+    "code" : "P",
+    "amount" : 1800
+  } ]
+}
