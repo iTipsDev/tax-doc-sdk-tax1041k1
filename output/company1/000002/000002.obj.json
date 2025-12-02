@@ -1,0 +1,104 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "47-570-7153",
+  "taxFormId" : "0915723",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0456124",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Terry, Hoeger and Breitenberg"
+    },
+    "address" : {
+      "line1" : "1835 Beer Squares",
+      "city" : "Larsonshire",
+      "region" : "WI",
+      "postalCode" : "56974"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "hobert.volkman@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-49-4420",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Nohemi",
+      "last" : "Hirthe"
+    },
+    "address" : {
+      "line1" : "986 Freddie Port",
+      "city" : "Streichside",
+      "region" : "LA",
+      "postalCode" : "04900"
+    },
+    "email" : "ezequiel.lesch@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "finalK1" : true,
+  "amendedK1" : true,
+  "fiscalYearBegin" : "2025-12-28",
+  "fiscalYearEnd" : "2025-09-07",
+  "fiduciary" : {
+    "tin" : "tin",
+    "partyType" : "BUSINESS",
+    "individualName" : {
+      "first" : "Bettie",
+      "last" : "Marvin"
+    },
+    "businessName" : {
+      "name1" : "Spencer and Sons"
+    },
+    "address" : {
+      "line1" : "315 Streich Ferry",
+      "city" : "East Kipport",
+      "region" : "IL",
+      "postalCode" : "79209"
+    },
+    "phone" : {
+      "country" : "country",
+      "number" : "number",
+      "extension" : "extension"
+    },
+    "email" : "email"
+  },
+  "form1041T" : true,
+  "date1041T" : "2025-12-14",
+  "final1041" : true,
+  "domestic" : true,
+  "foreign" : true,
+  "interestIncome" : 200,
+  "ordinaryDividends" : 300,
+  "qualifiedDividends" : 400,
+  "netShortTermGain" : 500,
+  "netLongTermGain" : 600,
+  "gain28Rate" : 700,
+  "unrecaptured1250Gain" : 800,
+  "otherPortfolioIncome" : 900,
+  "ordinaryBusinessIncome" : 1000,
+  "netRentalRealEstateIncome" : 1100,
+  "otherRentalIncome" : 1200,
+  "directlyApportionedDeductions" : [ {
+    "code" : "G",
+    "amount" : 1400
+  } ],
+  "estateTaxDeduction" : 1300,
+  "finalYearDeductions" : [ {
+    "code" : "R",
+    "amount" : 1500
+  } ],
+  "amtAdjustments" : [ {
+    "code" : "O",
+    "amount" : 1600
+  } ],
+  "credits" : [ {
+    "code" : "I",
+    "amount" : 1700
+  } ],
+  "otherInfo" : [ {
+    "code" : "W",
+    "amount" : 1800
+  } ]
+}
