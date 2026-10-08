@@ -1,0 +1,115 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "32-517-5402",
+  "taxFormId" : "3941280",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0048428",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Hegmann, Mraz and Rau"
+    },
+    "address" : {
+      "line1" : "85777 Blick Dam",
+      "city" : "Schillerside",
+      "region" : "NV",
+      "postalCode" : "16579",
+      "unitType" : "Apt",
+      "unitNumber" : "802"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "fawn.sporer@hotmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-04-6639",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Matt",
+      "middle" : "Wes",
+      "last" : "Runte"
+    },
+    "businessName" : {
+      "name1" : "Gerlach, Lemke and Kuphal"
+    },
+    "address" : {
+      "line1" : "666 Simonis Island",
+      "city" : "New Tyrellfurt",
+      "region" : "AZ",
+      "postalCode" : "26753",
+      "unitType" : "Apt",
+      "unitNumber" : "245"
+    },
+    "email" : "kandis.effertz@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "finalK1" : true,
+  "amendedK1" : true,
+  "fiscalYearBegin" : "2026-04-10",
+  "fiscalYearEnd" : "2026-07-15",
+  "fiduciary" : {
+    "tin" : "000-12-3456",
+    "partyType" : "BUSINESS",
+    "individualName" : {
+      "first" : "Modesta",
+      "middle" : "Tereasa",
+      "last" : "Dicki"
+    },
+    "businessName" : {
+      "name1" : "Johnson, D'Amore and Wiza"
+    },
+    "address" : {
+      "line1" : "632 Marvin Island",
+      "city" : "Willshire",
+      "region" : "TX",
+      "postalCode" : "87323",
+      "unitType" : "Apt",
+      "unitNumber" : "855"
+    },
+    "phone" : {
+      "country" : "country",
+      "number" : "number",
+      "extension" : "extension"
+    },
+    "email" : "email"
+  },
+  "form1041T" : true,
+  "date1041T" : "2026-08-03",
+  "final1041" : true,
+  "domestic" : true,
+  "foreign" : true,
+  "interestIncome" : 200,
+  "ordinaryDividends" : 300,
+  "qualifiedDividends" : 400,
+  "netShortTermGain" : 500,
+  "netLongTermGain" : 600,
+  "gain28Rate" : 700,
+  "unrecaptured1250Gain" : 800,
+  "otherPortfolioIncome" : 900,
+  "ordinaryBusinessIncome" : 1000,
+  "netRentalRealEstateIncome" : 1100,
+  "otherRentalIncome" : 1200,
+  "directlyApportionedDeductions" : [ {
+    "code" : "N",
+    "amount" : 1400
+  } ],
+  "estateTaxDeduction" : 1300,
+  "finalYearDeductions" : [ {
+    "code" : "O",
+    "amount" : 1500
+  } ],
+  "amtAdjustments" : [ {
+    "code" : "I",
+    "amount" : 1600
+  } ],
+  "credits" : [ {
+    "code" : "D",
+    "amount" : 1700
+  } ],
+  "otherInfo" : [ {
+    "code" : "N",
+    "amount" : 1800
+  } ]
+}

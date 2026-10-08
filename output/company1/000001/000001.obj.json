@@ -1,0 +1,115 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "20-376-5203",
+  "taxFormId" : "1036117",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0048428",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Hegmann, Mraz and Rau"
+    },
+    "address" : {
+      "line1" : "85777 Blick Dam",
+      "city" : "Schillerside",
+      "region" : "NV",
+      "postalCode" : "16579",
+      "unitType" : "Apt",
+      "unitNumber" : "802"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "fawn.sporer@hotmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-15-8141",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Floretta",
+      "middle" : "Marcelene",
+      "last" : "Walker"
+    },
+    "businessName" : {
+      "name1" : "Marquardt and Sons"
+    },
+    "address" : {
+      "line1" : "65133 Reinger Junctions",
+      "city" : "Lake Adolfo",
+      "region" : "NY",
+      "postalCode" : "21717",
+      "unitType" : "Apt",
+      "unitNumber" : "753"
+    },
+    "email" : "alva.williamson@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "finalK1" : true,
+  "amendedK1" : true,
+  "fiscalYearBegin" : "2026-07-10",
+  "fiscalYearEnd" : "2026-01-08",
+  "fiduciary" : {
+    "tin" : "000-12-3456",
+    "partyType" : "BUSINESS",
+    "individualName" : {
+      "first" : "Zackary",
+      "middle" : "Krishna",
+      "last" : "Volkman"
+    },
+    "businessName" : {
+      "name1" : "Bogan LLC"
+    },
+    "address" : {
+      "line1" : "63292 Waters Brook",
+      "city" : "Brentonport",
+      "region" : "MI",
+      "postalCode" : "07224",
+      "unitType" : "Apt",
+      "unitNumber" : "347"
+    },
+    "phone" : {
+      "country" : "country",
+      "number" : "number",
+      "extension" : "extension"
+    },
+    "email" : "email"
+  },
+  "form1041T" : true,
+  "date1041T" : "2026-10-07",
+  "final1041" : true,
+  "domestic" : true,
+  "foreign" : true,
+  "interestIncome" : 200,
+  "ordinaryDividends" : 300,
+  "qualifiedDividends" : 400,
+  "netShortTermGain" : 500,
+  "netLongTermGain" : 600,
+  "gain28Rate" : 700,
+  "unrecaptured1250Gain" : 800,
+  "otherPortfolioIncome" : 900,
+  "ordinaryBusinessIncome" : 1000,
+  "netRentalRealEstateIncome" : 1100,
+  "otherRentalIncome" : 1200,
+  "directlyApportionedDeductions" : [ {
+    "code" : "M",
+    "amount" : 1400
+  } ],
+  "estateTaxDeduction" : 1300,
+  "finalYearDeductions" : [ {
+    "code" : "O",
+    "amount" : 1500
+  } ],
+  "amtAdjustments" : [ {
+    "code" : "K",
+    "amount" : 1600
+  } ],
+  "credits" : [ {
+    "code" : "L",
+    "amount" : 1700
+  } ],
+  "otherInfo" : [ {
+    "code" : "U",
+    "amount" : 1800
+  } ]
+}

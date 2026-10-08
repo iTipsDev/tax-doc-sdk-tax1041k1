@@ -1,0 +1,115 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "71-970-6394",
+  "taxFormId" : "1726356",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0048428",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Hegmann, Mraz and Rau"
+    },
+    "address" : {
+      "line1" : "85777 Blick Dam",
+      "city" : "Schillerside",
+      "region" : "NV",
+      "postalCode" : "16579",
+      "unitType" : "Apt",
+      "unitNumber" : "802"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "fawn.sporer@hotmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-84-9699",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Aretha",
+      "middle" : "Evon",
+      "last" : "McGlynn"
+    },
+    "businessName" : {
+      "name1" : "Rice, Blanda and Funk"
+    },
+    "address" : {
+      "line1" : "23623 White Walks",
+      "city" : "MacGyverberg",
+      "region" : "MA",
+      "postalCode" : "21211",
+      "unitType" : "Apt",
+      "unitNumber" : "936"
+    },
+    "email" : "calvin.beahan@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "finalK1" : true,
+  "amendedK1" : true,
+  "fiscalYearBegin" : "2026-11-21",
+  "fiscalYearEnd" : "2026-09-08",
+  "fiduciary" : {
+    "tin" : "000-12-3456",
+    "partyType" : "BUSINESS",
+    "individualName" : {
+      "first" : "Mickey",
+      "middle" : "Mariela",
+      "last" : "Wilderman"
+    },
+    "businessName" : {
+      "name1" : "Goldner, Schroeder and Collins"
+    },
+    "address" : {
+      "line1" : "15886 Adrianna Road",
+      "city" : "Champlinland",
+      "region" : "NH",
+      "postalCode" : "29538",
+      "unitType" : "Apt",
+      "unitNumber" : "293"
+    },
+    "phone" : {
+      "country" : "country",
+      "number" : "number",
+      "extension" : "extension"
+    },
+    "email" : "email"
+  },
+  "form1041T" : true,
+  "date1041T" : "2026-07-07",
+  "final1041" : true,
+  "domestic" : true,
+  "foreign" : true,
+  "interestIncome" : 200,
+  "ordinaryDividends" : 300,
+  "qualifiedDividends" : 400,
+  "netShortTermGain" : 500,
+  "netLongTermGain" : 600,
+  "gain28Rate" : 700,
+  "unrecaptured1250Gain" : 800,
+  "otherPortfolioIncome" : 900,
+  "ordinaryBusinessIncome" : 1000,
+  "netRentalRealEstateIncome" : 1100,
+  "otherRentalIncome" : 1200,
+  "directlyApportionedDeductions" : [ {
+    "code" : "F",
+    "amount" : 1400
+  } ],
+  "estateTaxDeduction" : 1300,
+  "finalYearDeductions" : [ {
+    "code" : "I",
+    "amount" : 1500
+  } ],
+  "amtAdjustments" : [ {
+    "code" : "N",
+    "amount" : 1600
+  } ],
+  "credits" : [ {
+    "code" : "B",
+    "amount" : 1700
+  } ],
+  "otherInfo" : [ {
+    "code" : "D",
+    "amount" : 1800
+  } ]
+}
